@@ -1,9 +1,16 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-size: 14px;
   line-height: 18px;
   color: black;
   font-weight: bold;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
   }
 
 h1 {
@@ -33,6 +40,21 @@ h2 {
   float: left;
 }
 
+.main-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav-item {
+  display: inline-block;
+}
+
+.main-nav-link {
+  display: block;
+  padding: 25px 20px;
+}
+
 .user-block {
   width: 140px;
   float: right;
@@ -45,19 +67,34 @@ h2 {
 }
 
 .main-header {
-  margin-bottom: 54px;
+  margin-bottom: 50px;
 }
 
 .page-title {
   float: left;
   width: 800px;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
+  margin-top: 0;
 }
 
 .breadcrumbs {
   float: left;
   width: 800px;
   margin-bottom: 52px;
+}
+
+.breadcrumbs-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs-list-item {
+  display: inline-block;
+}
+
+.breadcrumbs-list-item-link {
+  margin-right: 13px;
 }
 
 .filter {
